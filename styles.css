@@ -1,0 +1,56 @@
+#bank {
+    color: #1b424c;
+    margin-left: 50px;
+  }
+  #info {
+    color: #39c260;
+  }
+  
+  nav {
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+  }
+  
+  .links {
+    font-size: 20px;
+    color: #1b424c;
+  }
+  .navlinks {
+    height: 64px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  #button {
+    background-color: #1b424c;
+    border-radius: 20px;
+  }
+  
+  #contactus {
+    font-family: "MS Sans";
+  }
+  
+  #heading {
+    color: #1b424c;
+    margin-top: 130px;
+    margin-left: 50px;
+    font-size: 68px;
+    font-family: raleway;
+    font-weight: bold;
+  }
+  
+  #article {
+    color: #1b424c;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: "DM Sans";
+  }
+  
+  img {
+    float: right;
+    width: 644px;
+    height: 420px;
+  }
+  
