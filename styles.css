@@ -53,4 +53,12 @@
     width: 644px;
     height: 420px;
   }
+
+  #links {;
+
+    background-image: linear-gradient(to right, #50AC97, white);
+    opacity: 30%;
+    color:#1b424c;
+
+}
   
