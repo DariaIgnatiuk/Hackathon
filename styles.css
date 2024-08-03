@@ -164,3 +164,62 @@ h6 {
   text-transform: none;
   font-family: "DM Sans";
 }
+
+#heading_feedback
+{  color: #1b424c;
+  text-align: left;
+  margin-left: 200px;
+  font-size: 40;
+  font-family: raleway;
+  margin-top: 100px;}
+
+  #form_image
+  {margin-left: 200px;
+  float: left;}
+  
+  #form_area{
+    margin-top: 100px;
+    float:right;
+    margin-right:200px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  #form_name, #form_email, #form_message{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 395px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  
+  #form_message{
+    height: 100px;
+  }
+
+  .text_style{
+    color:black;
+    font-size: 16px;
+    font-family: raleway;
+  }
+
+  #form_button 
+  {color:white;
+  background-color: #2A6877;
+  height:48px;
+  width:125px;
+  border-radius: 15px;
+  font-family:"DM Sans";
+}
+
+#center_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
