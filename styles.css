@@ -1,5 +1,10 @@
 body {
   background-image: linear-gradient(to right, rgba(80, 172, 151, 0.3), white);
+  min-height: 200vh;
+}
+
+#start_page {
+  background-image:none;
 }
 
 #bank {
@@ -40,7 +45,7 @@ nav {
 }
 
 #contactus {
-  font-family: "MS Sans";
+  font-family: "DM Sans";
 }
 
 .content {
@@ -49,6 +54,7 @@ nav {
   margin-right: 50px;
   font-size: 18px;
   font-family: "DM Sans";
+  height: auto;
 }
 
 #heading {
@@ -87,4 +93,16 @@ div.content>ul>li>ul>li {
   list-style-type: circle;
   margin-left: 16px;
   margin-top: 8px;
+}
+
+footer {
+  width: 100%;
+    position: fixed;
+    overflow: auto;
+    z-index: 2;
+    bottom: 0;
+}
+
+h6 {
+  color: antiquewhite;
 }
