@@ -1,6 +1,5 @@
 body {
   background-image: linear-gradient(to right, rgba(80, 172, 151, 0.3), white);
-  min-height: 200vh;
 }
 
 #start_page {
@@ -97,11 +96,9 @@ div.content>ul>li>ul>li {
 
 footer {
   width: 100%;
-    position: fixed;
-    overflow: auto;
-    z-index: 1;
-    bottom: 0;
-    
+  overflow: auto;
+  z-index: 1;
+  bottom: 0;
 }
 
 h6 {
