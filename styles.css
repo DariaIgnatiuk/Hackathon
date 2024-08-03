@@ -1,56 +1,108 @@
+body {
+  background-image: linear-gradient(to right, rgba(80, 172, 151, 0.3), white);
+  min-height: 200vh;
+}
+
+#start_page {
+  background-image:none;
+}
+
 #bank {
-    color: #1b424c;
-    margin-left: 50px;
-  }
-  #info {
-    color: #39c260;
-  }
-  
-  nav {
-    overflow: hidden;
+  color: #1b424c;
+  margin-left: 50px;
+}
+
+#info {
+  color: #39c260;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+}
+
+.links {
+  font-size: 20px;
+  color: #1b424c;
+}
+
+.navlinks {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#button {
+  background-color: #1b424c;
+  border-radius: 20px;
+  text-transform: lowercase;
+  margin-left: 80px;
+}
+
+#button::first-letter {
+  text-transform: uppercase;
+}
+
+#contactus {
+  font-family: "DM Sans";
+}
+
+.content {
+  color: #1b424c;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  font-family: "DM Sans";
+  height: auto;
+}
+
+#heading {
+  color: #1b424c;
+  margin-top: 130px;
+  margin-left: 50px;
+  font-size: 60px;
+  font-family: raleway;
+  font-weight: bold;
+}
+
+.article_heading {
+  color: #1b424c;
+  margin-top: 130px;
+  margin-left: 50px;
+  font-size: 40px;
+  font-family: raleway;
+  font-weight: bold;
+}
+
+#banking {
+  float: right;
+  margin-right: 20px;
+}
+
+.arrow {
+  padding-top: 6px;
+}
+div.content>ul>li {
+  list-style: disc;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+div.content>ul>li>ul>li {
+  list-style-type: circle;
+  margin-left: 16px;
+  margin-top: 8px;
+}
+
+footer {
+  width: 100%;
     position: fixed;
-    z-index: 999;
-    top: 0;
-  }
-  
-  .links {
-    font-size: 20px;
-    color: #1b424c;
-  }
-  .navlinks {
-    height: 64px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
-  #button {
-    background-color: #1b424c;
-    border-radius: 20px;
-  }
-  
-  #contactus {
-    font-family: "MS Sans";
-  }
-  
-  #heading {
-    color: #1b424c;
-    margin-top: 130px;
-    margin-left: 50px;
-    font-size: 68px;
-    font-family: raleway;
-    font-weight: bold;
-  }
-  
-  #article {
-    color: #1b424c;
-    margin-left: 50px;
-    font-size: 18px;
-    font-family: "DM Sans";
-  }
-  
-  img {
-    float: right;
-    width: 644px;
-    height: 420px;
-  }
-  
+    overflow: auto;
+    z-index: 2;
+    bottom: 0;
+}
+
+h6 {
+  color: antiquewhite;
+}
