@@ -1,108 +1,119 @@
 #bank {
-    color: #1b424c;
-    margin-left: 50px;
-  }
-  #info {
-    color: #39c260;
-  }
-  
-  nav {
-    overflow: hidden;
-    position: fixed;
-    z-index: 999;
-    top: 0;
-  }
-  
-  .links {
-    font-size: 20px;
-    color: #1b424c;
-  }
-  .navlinks {
-    height: 64px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
-  #button {
-    background-color: #1b424c;
-    border-radius: 20px;
-  }
-  
-  #contactus {
-    font-family: "MS Sans";
-  }
-  
-  #heading {
-    color: #1b424c;
-    margin-top: 130px;
-    margin-left: 50px;
-    font-size: 68px;
-    font-family: raleway;
-    font-weight: bold;
-  }
-  
-  #article {
-    color: #1b424c;
-    margin-left: 50px;
-    font-size: 18px;
-    font-family: "DM Sans";
-  }
-  
-  img {
-    float: right;
-    width: 644px;
-    height: 420px;
-  }
-  
-#heading2{color:#1b424c;
-text-align: center;
-font-size: 40;
-font-family: raleway;
-padding-top: 30px;
+  color: #1b424c;
+  margin-left: 50px;
+}
+#info {
+  color: #39c260;
 }
 
-#links {;
-    background-image: linear-gradient(to right, rgba(80, 172, 151, 0.3), white);
+nav {
+  overflow: hidden;
+  position: fixed;
+  z-index: 999;
+  top: 0;
 }
 
-#card-image {
-float:none;
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-width: 75px;
-height: 95px;
-padding-top: 15px;
+.links {
+  font-size: 20px;
+  color: #1b424c;
+}
+.navlinks {
+  height: 64px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-#card {
-    background-color: transparent;
-    border-radius: 10px; 
-    width: 346px;
+#button {
+  background-color: #1b424c;
+  border-radius: 20px;
 }
 
-#button_open{
-    background-color: transparent;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    border: 1px solid rgba(42,104,119, 0.3);
+#contactus {
+  font-family: "MS Sans";
 }
 
-#open{
-    color:#1b424c;
-    text-transform: none;
-    font-family: "DM Sans";
+#heading {
+  color: #1b424c;
+  margin-top: 130px;
+  margin-left: 50px;
+  font-size: 68px;
+  font-family: raleway;
+  font-weight: bold;
 }
 
-.cardcard{
-    color:1B424C; 
-    font-family: raleway;
-    font-size: 20px;
-    text-align: center;
+#article {
+  color: #1b424c;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: "DM Sans";
+}
+
+img {
+  float: right;
+  width: 644px;
+  height: 420px;
+}
+
+#links {
+  background-image: linear-gradient(to right, rgba(80, 172, 151, 0.3), white);
+}
+
+#heading2 {
+  color: #1b424c;
+  text-align: center;
+  font-size: 40;
+  font-family: raleway;
+  padding-top: 30px;
+}
+
+.card {
+  background-color: transparent !important;
+  border-radius: 10px !important;
+  width: 320px;
+  height: 300px;
+}
+
+.imageincards {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 75px !important;
+  height: 95px;
+  padding-top: 15px;
+}
+
+.card_heading_style {
+  color: 1B424C;
+  font-family: raleway;
+  font-size: 24px;
+  text-align: center;
+}
+
+.card_content_style {
+  color: 1B424C;
+  font-family: raleway;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button_open {
+  background-color: transparent;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid rgba(42, 104, 119, 0.3);
+}
 
 
+
+.button_open_content {
+  color: #1b424c;
+  text-transform: none;
+  font-family: "DM Sans";
 }
