@@ -29,7 +29,7 @@ nav {
 }
 
 #contactus {
-  font-family: "MS Sans";
+  font-family: "DM Sans";
 }
 
 #heading {
@@ -45,7 +45,7 @@ nav {
   color: #1b424c;
   margin-left: 50px;
   font-size: 18px;
-  font-family: "MS Sans";
+  font-family: "DM Sans";
 }
 
 
@@ -70,8 +70,7 @@ nav {
 .card {
     overflow: hidden;
   /*border-radius: 10px !important;*/
-  width: 320px;
-  height: 300px;
+ /* height: 300px;*/
 }
 
 .imageincards {
@@ -85,7 +84,7 @@ nav {
 .card_heading_style {
   color: 1B424C;
   font-family: raleway;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -107,8 +106,6 @@ nav {
   height: 40px;
   border: 1px solid rgba(42, 104, 119, 0.3);
 }
-
-
 
 .button_open_content {
   color: #1b424c;
