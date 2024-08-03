@@ -106,3 +106,61 @@ footer {
 h6 {
   color: antiquewhite;
 }
+
+#cards_with_links {
+  background-image: linear-gradient(to right, rgba(80, 172, 151, 0.3), white);
+  clear: right;
+}
+
+#heading2 {
+  color: #1b424c;
+  text-align: center;
+  font-size: 40;
+  font-family: raleway;
+  padding-top: 30px;
+}
+
+.card {
+    overflow: hidden;
+  /*border-radius: 10px !important;*/
+}
+
+.imageincards {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+.card_heading_style {
+  color: 1B424C;
+  font-family: raleway;
+  font-size: 22px;
+  text-align: center;
+}
+
+.card_content_style {
+  color: 1B424C;
+  font-family: raleway;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button_open {
+  background-color: transparent;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid rgba(42, 104, 119, 0.3);
+}
+
+.button_open_content {
+  color: #1b424c;
+  text-transform: none;
+  font-family: "DM Sans";
+}
