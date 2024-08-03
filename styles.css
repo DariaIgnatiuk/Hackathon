@@ -45,14 +45,15 @@ nav {
   color: #1b424c;
   margin-left: 50px;
   font-size: 18px;
-  font-family: "DM Sans";
+  font-family: "MS Sans";
 }
 
-img {
-  float: right;
-  width: 644px;
-  height: 420px;
-}
+
+#banking {
+    float: right;
+    margin-right: 20px;
+  }
+  
 
 #links {
   background-image: linear-gradient(to right, rgba(80, 172, 151, 0.3), white);
@@ -67,8 +68,8 @@ img {
 }
 
 .card {
-  background-color: transparent !important;
-  border-radius: 10px !important;
+    overflow: hidden;
+  /*border-radius: 10px !important;*/
   width: 320px;
   height: 300px;
 }
@@ -78,9 +79,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  width: 75px !important;
-  height: 95px;
   padding-top: 15px;
 }
 
